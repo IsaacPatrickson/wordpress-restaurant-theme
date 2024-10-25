@@ -13,211 +13,149 @@
 			"defaultDuotone": true,
 			"defaultGradients": true,
 			"defaultPalette": false,
-			"palettes": [
-                {
-                    "name": "Dark",
-                    "slug": "dark",
-                    "colors": [
-                        {
-                            "name": "Primary Black",
-                            "slug": "primary-black",
-                            "color": "#000000"
-                        },
-                        {
-                            "name": "Dark Gray",
-                            "slug": "dark-gray",
-                            "color": "#1a1a1a"
-                        },
-                        {
-                            "name": "Charcoal",
-                            "slug": "charcoal",
-                            "color": "#333333"
-                        },
-                        {
-                            "name": "Dim Gray",
-                            "slug": "dim-gray",
-                            "color": "#666666"
-                        },
-                        {
-                            "name": "Bright White",
-                            "slug": "bright-white",
-                            "color": "#ffffff"
-                        },
-                        {
-                            "name": "Deep Blue",
-                            "slug": "deep-blue",
-                            "color": "#1e1e78"
-                        },
-                        {
-                            "name": "Emerald Green",
-                            "slug": "emerald-green",
-                            "color": "#2ecc71"
-                        },
-                        {
-                            "name": "Crimson Red",
-                            "slug": "crimson-red",
-                            "color": "#e74c3c"
-                        },
-                        {
-                            "name": "Dark Background",
-                            "slug": "dark-background",
-                            "color": "#222a38"
-                        },
-                        {
-                            "name": "Light Text",
-                            "slug": "light-text",
-                            "color": "#c7c8ce" 
-                        }
-                    ]
-                },
-                {
-                    "name": "Light",
-                    "slug": "light",
-                    "colors": [
-                        {
-                            "color": "#02306C",
-                            "name": "One",
-                            "slug": "one"
-                        },
-                        {
-                            "color": "#FAFAFA",
-                            "name": "One Contrast",
-                            "slug": "one-contrast"
-                        },
-                        {
-                            "color": "#164480",
-                            "name": "One Lighter",
-                            "slug": "one-lighter"
-                        },
-                        {
-                            "color": "#001C58",
-                            "name": "One Darker",
-                            "slug": "one-darker"
-                        },
-                        {
-                            "color": "#8293AF",
-                            "name": "Two",
-                            "slug": "two"
-                        },
-                        {
-                            "color": "#000000",
-                            "name": "Two Contrast",
-                            "slug": "two-contrast"
-                        },
-                        {
-                            "color": "#96A7C3",
-                            "name": "Two Lighter",
-                            "slug": "two-lighter"
-                        },
-                        {
-                            "color": "#6E7F9B",
-                            "name": "Two Darker",
-                            "slug": "two-darker"
-                        },
-                        {
-                            "color": "#CF8635",
-                            "name": "Three",
-                            "slug": "three"
-                        },
-                        {
-                            "color": "#FFFFFF",
-                            "name": "Three Contrast",
-                            "slug": "three-contrast"
-                        },
-                        {
-                            "color": "#E39A49",
-                            "name": "Three Lighter",
-                            "slug": "three-lighter"
-                        },
-                        {
-                            "color": "#BB7221",
-                            "name": "Three Darker",
-                            "slug": "three-darker"
-                        },
-                        {
-                            "color": "#2AB0AE",
-                            "name": "Four",
-                            "slug": "four"
-                        },
-                        {
-                            "color": "#FFFFFF",
-                            "name": "Four Contrast",
-                            "slug": "four-contrast"
-                        },
-                        {
-                            "color": "#3EC4C2",
-                            "name": "Four Lighter",
-                            "slug": "four-lighter"
-                        },
-                        {
-                            "color": "#169C9A",
-                            "name": "Four Darker",
-                            "slug": "four-darker"
-                        },
-                        {
-                            "color": "#E5EBF8",
-                            "name": "Five",
-                            "slug": "five"
-                        },
-                        {
-                            "color": "#000000",
-                            "name": "Five Contrast",
-                            "slug": "five-contrast"
-                        },
-                        {
-                            "color": "#F9FFFF",
-                            "name": "Five Lighter",
-                            "slug": "five-lighter"
-                        },
-                        {
-                            "color": "#D1D7E4",
-                            "name": "Five Darker",
-                            "slug": "five-darker"
-                        },
-                        {
-                            "color": "#5593A1",
-                            "name": "Fifteen",
-                            "slug": "fifteen"
-                        },
-                        {
-                            "color": "#FFFFFF",
-                            "name": "Fifteen Contrast",
-                            "slug": "fifteen-contrast"
-                        },
-                        {
-                            "color": "#69A7B5",
-                            "name": "Fifteen Lighter",
-                            "slug": "fifteen-lighter"
-                        },
-                        {
-                            "color": "#417F8D",
-                            "name": "Fifteen Darker",
-                            "slug": "fifteen-darker"
-                        },
-                        {
-                            "color": "#FFFFFF",
-                            "name": "White",
-                            "slug": "white"
-                        },
-                        {
-                            "color": "#262626",
-                            "name": "White Contrast",
-                            "slug": "white-contrast"
-                        },
-                        {
-                            "color": "#FFFFFF",
-                            "name": "White Lighter",
-                            "slug": "white-lighter"
-                        },
-                        {
-                            "color": "#EBEBEB",
-                            "name": "White Darker",
-                            "slug": "white-darker"
-                        }
-                    ]
-                }
+			"palette": [
+				{
+					"color": "#02306C",
+					"name": "One",
+					"slug": "one"
+				},
+				{
+					"color": "#FAFAFA",
+					"name": "One Contrast",
+					"slug": "one-contrast"
+				},
+				{
+					"color": "#164480",
+					"name": "One Lighter",
+					"slug": "one-lighter"
+				},
+				{
+					"color": "#001C58",
+					"name": "One Darker",
+					"slug": "one-darker"
+				},
+				{
+					"color": "#8293AF",
+					"name": "Two",
+					"slug": "two"
+				},
+				{
+					"color": "#000000",
+					"name": "Two Contrast",
+					"slug": "two-contrast"
+				},
+				{
+					"color": "#96A7C3",
+					"name": "Two Lighter",
+					"slug": "two-lighter"
+				},
+				{
+					"color": "#6E7F9B",
+					"name": "Two Darker",
+					"slug": "two-darker"
+				},
+				{
+					"color": "#CF8635",
+					"name": "Three",
+					"slug": "three"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Three Contrast",
+					"slug": "three-contrast"
+				},
+				{
+					"color": "#E39A49",
+					"name": "Three Lighter",
+					"slug": "three-lighter"
+				},
+				{
+					"color": "#BB7221",
+					"name": "Three Darker",
+					"slug": "three-darker"
+				},
+				{
+					"color": "#2AB0AE",
+					"name": "Four",
+					"slug": "four"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Four Contrast",
+					"slug": "four-contrast"
+				},
+				{
+					"color": "#3EC4C2",
+					"name": "Four Lighter",
+					"slug": "four-lighter"
+				},
+				{
+					"color": "#169C9A",
+					"name": "Four Darker",
+					"slug": "four-darker"
+				},
+				{
+					"color": "#E5EBF8",
+					"name": "Five",
+					"slug": "five"
+				},
+				{
+					"color": "#000000",
+					"name": "Five Contrast",
+					"slug": "five-contrast"
+				},
+				{
+					"color": "#F9FFFF",
+					"name": "Five Lighter",
+					"slug": "five-lighter"
+				},
+				{
+					"color": "#D1D7E4",
+					"name": "Five Darker",
+					"slug": "five-darker"
+				},
+				{
+					"color": "#5593A1",
+					"name": "Fifteen",
+					"slug": "fifteen"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Fifteen Contrast",
+					"slug": "fifteen-contrast"
+				},
+				{
+					"color": "#69A7B5",
+					"name": "Fifteen Lighter",
+					"slug": "fifteen-lighter"
+				},
+				{
+					"color": "#417F8D",
+					"name": "Fifteen Darker",
+					"slug": "fifteen-darker"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#262626",
+					"name": "White Contrast",
+					"slug": "white-contrast"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "White Lighter",
+					"slug": "white-lighter"
+				},
+				{
+					"color": "#EBEBEB",
+					"name": "White Darker",
+					"slug": "white-darker"
+				}
 			],
-		    "text": true
+			"text": true
 		},
 		"layout": {
 			"contentSize": "620px",
