@@ -14,17 +14,59 @@
  */
 
 
-.dark-mode {
-    background-color: var(--wp--preset--color--dark-background);
-    color: var(--wp--preset--color--light-text);
+ #palette-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
 }
 
-.dark-mode .wp-block-button__link {
-    background-color: var(--wp--preset--color--dark-accent);
-    color: var(--wp--preset--color--light-text);
+#palette-toggle:hover {
+    background-color: #555;
 }
 
-.dark-mode .wp-block-search__button {
-    background-color: var(--wp--preset--color--dark-accent);
+/* Button Styles */
+.core-button {
+    border-radius: 15px;
+    background-color: var(--wp--preset--color--dim-gray);
+    color: var(--wp--preset--color--three-light-text);
+  }
+  
+  .core-button a {
+    color: var(--wp--preset--color--dim-gray);
+  }
+  
+  
+  /* General Background and Text Colors */
+  body {
+    background-color: var(--wp--preset--color--charcoal);
     color: var(--wp--preset--color--light-text);
-}
+  }
+  
+  /* Element-Specific Styles */
+  button {
+    background-color: var(--wp--preset--color--dim-gray);
+    color: var(--wp--preset--color--three-light-text);
+  }
+  
+  .caption {
+    color: var(--wp--preset--color--bright-white);
+  }
+  
+  .heading {
+    color: var(--wp--preset--color--light-text);
+  }
+  
+  a {
+    color: var(--wp--preset--color--dim-gray);
+  }
+  
+  a:hover {
+    color: var(--wp--preset--color--bright-white);
+  }
