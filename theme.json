@@ -150,7 +150,22 @@
 					"color": "#EBEBEB",
 					"name": "White Darker",
 					"slug": "white-darker"
-				}
+				},
+                {
+                    "name": "Dark Background",
+                    "slug": "dark-background",
+                    "color": "#121212"
+                },
+                {
+                    "name": "Light Text",
+                    "slug": "light-text",
+                    "color": "#ffffff" 
+                },
+                {
+                    "name": "Dark Accent",
+                    "slug": "dark-accent",
+                    "color": "#bb86fc"
+                }
 			],
 			"text": true
 		},
@@ -361,5 +376,22 @@
 			"lineHeight": "1.5"
 		}
 	},
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "general-header",
+            "title": "General Header"
+        },
+        {
+            "area": "footer",
+            "name": "general-footer-2",
+            "title": "General Footer"
+        },
+        {
+            "area": "general",
+            "name": "query-loop",
+            "title": "Query Loop"
+        }
+    ],
 	"version": 3
 }
