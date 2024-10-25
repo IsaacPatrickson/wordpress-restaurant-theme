@@ -12,4 +12,27 @@
  * License:           GNU General Public License v2.0 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
- 
+
+.wp-block-button__link:hover {
+    background-color: var(--wp--preset--color--three-darker) !important; /* Hover background color */
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.1s ease;
+}
+
+/* Button focus effect */
+.wp-block-button__link:focus {
+    outline: 3px solid var(--wp--preset--color--five-contrast); /* Focus outline color */
+    outline-offset: 3px; /* Outline offset */
+}
+
+.wp-block-search__button:hover {
+    background-color: var(--wp--preset--color--three-darker) !important; /* Hover background color */
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.1s ease;
+}
+
+/* Button focus effect */
+.wp-block-search__button:focus {
+    outline: 3px solid var(--wp--preset--color--five-contrast); /* Focus outline color */
+    outline-offset: 3px; /* Outline offset */
+}
