@@ -37,11 +37,6 @@
 					"slug": "two"
 				},
 				{
-					"color": "#000000",
-					"name": "Two Contrast",
-					"slug": "two-contrast"
-				},
-				{
 					"color": "#96A7C3",
 					"name": "Two Lighter",
 					"slug": "two-lighter"
@@ -55,11 +50,6 @@
 					"color": "#CF8635",
 					"name": "Three",
 					"slug": "three"
-				},
-				{
-					"color": "#FFFFFF",
-					"name": "Three Contrast",
-					"slug": "three-contrast"
 				},
 				{
 					"color": "#E39A49",
@@ -77,11 +67,6 @@
 					"slug": "four"
 				},
 				{
-					"color": "#FFFFFF",
-					"name": "Four Contrast",
-					"slug": "four-contrast"
-				},
-				{
 					"color": "#3EC4C2",
 					"name": "Four Lighter",
 					"slug": "four-lighter"
@@ -97,11 +82,6 @@
 					"slug": "five"
 				},
 				{
-					"color": "#000000",
-					"name": "Five Contrast",
-					"slug": "five-contrast"
-				},
-				{
 					"color": "#F9FFFF",
 					"name": "Five Lighter",
 					"slug": "five-lighter"
@@ -113,24 +93,34 @@
 				},
 				{
 					"color": "#5593A1",
-					"name": "Fifteen",
-					"slug": "fifteen"
-				},
-				{
-					"color": "#FFFFFF",
-					"name": "Fifteen Contrast",
-					"slug": "fifteen-contrast"
+					"name": "Six",
+					"slug": "six"
 				},
 				{
 					"color": "#69A7B5",
-					"name": "Fifteen Lighter",
-					"slug": "fifteen-lighter"
+					"name": "Six Lighter",
+					"slug": "six-lighter"
 				},
 				{
 					"color": "#417F8D",
-					"name": "Fifteen Darker",
-					"slug": "fifteen-darker"
+					"name": "Six Darker",
+					"slug": "six-darker"
 				},
+				{
+					"color": "#121212",
+					"name": "Black",
+					"slug": "black"
+				},
+				{
+					"color": "#e3e3e3",
+					"name": "Black Contrast",
+					"slug": "black-contrast"
+				},
+				{
+					"color": "#333333",
+					"name": "Black Lighter",
+					"slug": "black-ligher"
+				},							
 				{
 					"color": "#FFFFFF",
 					"name": "White",
@@ -140,11 +130,6 @@
 					"color": "#262626",
 					"name": "White Contrast",
 					"slug": "white-contrast"
-				},
-				{
-					"color": "#FFFFFF",
-					"name": "White Lighter",
-					"slug": "white-lighter"
 				},
 				{
 					"color": "#EBEBEB",
@@ -286,12 +271,12 @@
 				},
 				"color": {
 					"background": "var(--wp--preset--color--three)",
-					"text": "var(--wp--preset--color--three-contrast)"
+					"text": "var(--wp--preset--color--white)"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var(--wp--preset--color--three-contrast)"
+							"text": "var(--wp--preset--color--four)"
 						}
 					}
 				},
@@ -315,14 +300,14 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--five)",
-			"text": "var(--wp--preset--color--one)"
+			"background": "var(--wp--preset--color--white-darker)",
+			"text": "var(--wp--preset--color--black)"
 		},
 		"elements": {
 			"button": {
 				"color": {
 					"background": "var(--wp--preset--color--three)",
-					"text": "var(--wp--preset--color--three-contrast)"
+					"text": "var(--wp--preset--color--white)"
 				}
 			},
 			"caption": {
@@ -332,7 +317,7 @@
 			},
 			"heading": {
 				"color": {
-					"text": "var(--wp--preset--color--one)"
+					"text": "var(--wp--preset--color--black)"
 				}
 			},
 			"link": {

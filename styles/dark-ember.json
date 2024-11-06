@@ -101,8 +101,8 @@
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--color--dim-gray)",
-					"text": "var(--wp--preset--color--three-light-text)"
+					"background": "var(--wp--preset--color--three)",
+					"text": "var(--wp--preset--color--white)"
 				}
 			},
 			"caption": {
