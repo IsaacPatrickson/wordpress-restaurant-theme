@@ -1,14 +1,13 @@
-#  **README.md - WordPress Restaurant Theme**
-
-# 🍽️ WordPress Restaurant Theme  
-A custom WordPress theme built from the Underscores starter theme to practice theme development, template structure, and front-end styling.
-
 ![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-Theme-21759B?logo=wordpress&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)
 ![Underscores](https://img.shields.io/badge/Starter-Underscores-blue)
 ![Learning Project](https://img.shields.io/badge/Type-Learning%20Project-green)
+
+# WordPress Restaurant Theme  
+
+A custom WordPress theme built from the Underscores starter theme to practice theme development, template structure, and front-end styling.
 
 ---
 
